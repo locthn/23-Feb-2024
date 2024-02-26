@@ -1,7 +1,7 @@
-import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.model.FailureHandling
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -37,7 +37,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_chekhly-na-iphone
 
 "Step 4: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Product Page after Selecting New Apple Item from Category Chekhly Na Iphone_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Details of New Apple Product in Category Chekhly Na Iphone_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

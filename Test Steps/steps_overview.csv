@@ -1,12 +1,12 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Product Page after Selecting Hot New Item from KCellphone Shop,Navigate to the home page and select the Hot New item from KCellphoneShop. Proceed to the product page and verify the displayed product.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Verify Purchase of Hot New Product from KCellphone Shop,Navigate to the homepage and access the KCellphoneShop. Proceed to view the hot new product and proceed with the purchase. Verify the details of the product on the product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Click on link 'K Cellphone Shop'
 step 3: Click on link ' Hot!\n New!' -> Navigate to page 'product/*'
 step 4: Click on label
 step 5: Click on label
 step 6: Click on button ' Buy'
 step 7: Take full page screenshot as checkpoint",High
-2,Verify Successful Completion of Order from page Product to page Thank You,"Navigate to the home page and select a new item. Add the item to the cart and proceed to checkout. Enter shipping information, proceed to payment, and complete the order. Verify the Thank You page after successful completion.","step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+2,Verify Successful Completion of Order from page Home,Navigate to the homepage and select a new product. Add the product to the cart and proceed to checkout. Enter shipping details and complete the payment process. Verify the thank you page after completing the order.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Click on link ' New!' -> Navigate to page 'product/*'
 step 3: Click on label
 step 4: Click on label
@@ -27,7 +27,7 @@ step 18: Enter input value in input field 'shipping address.phone'
 step 19: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
 step 20: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 step 21: Take full page screenshot as checkpoint",High
-3,Verify Product Page after Selecting New Apple Item from Category Chekhly Na Iphone,Navigate to the home page and select the New Apple item from the ChekhlyNaIphone category. Verify the displayed product.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+3,Verify Details of New Apple Product in Category Chekhly Na Iphone,Navigate to the homepage and select the Apple category for iPhone cases. View the new product and verify the details on the product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 step 3: Click on link ' New!' -> Navigate to page 'product/*'
 step 4: Take full page screenshot as checkpoint",Trivial
