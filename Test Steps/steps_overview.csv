@@ -1,33 +1,30 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Purchase of Hot New Product from KCellphone Shop,Navigate to the homepage and access the KCellphoneShop. Proceed to view the hot new product and proceed with the purchase. Verify the details of the product on the product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Click on link 'K Cellphone Shop'
-step 3: Click on link ' Hot!\n New!' -> Navigate to page 'product/*'
-step 4: Click on label
-step 5: Click on label
-step 6: Click on button ' Buy'
-step 7: Take full page screenshot as checkpoint",High
-2,Verify Successful Completion of Order from page Home,Navigate to the homepage and select a new product. Add the product to the cart and proceed to checkout. Enter shipping details and complete the payment process. Verify the thank you page after completing the order.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Click on link ' New!' -> Navigate to page 'product/*'
-step 3: Click on label
-step 4: Click on label
-step 5: Click on button ' Buy'
-step 6: Click on svg  -> Navigate to page 'cart'
-step 7: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
-step 8: Click on input field 'email'
-step 9: Enter input value in input field 'email'
-step 10: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-step 11: Click on input field 'shipping address.first name'
-step 12: Enter input value in input field 'shipping address.first name'
-step 13: Enter input value in input field 'shipping address.last name'
-step 14: Enter input value in input field 'shipping address.address line 1'
-step 15: Enter input value in input field 'shipping address.zip'
-step 16: Enter input value in input field 'shipping address.city'
-step 17: Enter input value in input field 'shipping address.state'
-step 18: Enter input value in input field 'shipping address.phone'
-step 19: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-step 20: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-step 21: Take full page screenshot as checkpoint",High
-3,Verify Details of New Apple Product in Category Chekhly Na Iphone,Navigate to the homepage and select the Apple category for iPhone cases. View the new product and verify the details on the product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Verify Successful Placement of Order from Category Chekhly Na Iphone,Navigate to the home page and select the category for iPhone cases. Proceed to view the products on sale and place an order. Verify the contents of the cart.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
-step 3: Click on link ' New!' -> Navigate to page 'product/*'
-step 4: Take full page screenshot as checkpoint",Trivial
+step 3: Click on link ' Sale' -> Navigate to page 'product/*'
+step 4: Click on svg
+step 5: Click on link ' Place an order' -> Navigate to page 'cart'
+step 6: Take full page screenshot as checkpoint",High
+2,Verify Checkout Process and Shipping Address Confirmation,Navigate to the home page and proceed to checkout. Enter the required information and continue to the shipping address confirmation. Verify the displayed shipping address.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Click on button
+step 3: Click on label
+step 4: Click on svg
+step 5: Click on link ' Place an order' -> Navigate to page 'cart'
+step 6: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
+step 7: Click on input field 'email'
+step 8: Enter input value in input field 'email'
+step 9: Click on div
+step 10: Click on div
+step 11: Click on button 'CONTINUE TO SHIPPING'
+step 12: Enter input value in input field 'email'
+step 13: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
+step 14: Take full page screenshot as checkpoint",High
+3,Verify Displayed Category Samsung on Phone Page,Navigate to the home page and hover over the phone section. Select the Apple category and then the Samsung category. Verify the displayed Samsung category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Phone'
+step 4: Click on link 'Phone'
+step 5: Click on link 'Apple'
+step 6: Click on link 'Apple' -> Navigate to page 'category/apple'
+step 7: Click on link 'Samsung'
+step 8: Click on link 'Samsung' -> Navigate to page 'category/samsung'
+step 9: Take full page screenshot as checkpoint",Trivial

@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on button",
+        "step 3: Click on label",
+        "step 4: Click on svg",
+        "step 5: Click on link ' Place an order' -> Navigate to page 'cart'",
+        "step 6: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'",
+        "step 7: Click on input field 'email'",
+        "step 8: Enter input value in input field 'email'",
+        "step 9: Click on div",
+        "step 10: Click on div",
+        "step 11: Click on button 'CONTINUE TO SHIPPING'",
+        "step 12: Enter input value in input field 'email'",
+        "step 13: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}
